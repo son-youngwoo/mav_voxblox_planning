@@ -1,3 +1,5 @@
+#include <gflags/gflags.h>
+
 #include <voxblox/core/esdf_map.h>
 #include <voxblox/core/tsdf_map.h>
 #include <voxblox/integrator/merge_integration.h>

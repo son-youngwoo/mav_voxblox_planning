@@ -4,11 +4,13 @@ project(voxblox_rrt_planner)
 find_package(catkin_simple REQUIRED)
 catkin_simple(ALL_DEPS_REQUIRED)
 
-add_definitions(-std=c++11)
+add_definitions(-std=c++14)
 
 #############
 # LIBRARIES #
 #############
+
+
 cs_add_library(${PROJECT_NAME}
   src/voxblox_ompl_rrt.cpp
   src/voxblox_rrt_planner.cpp

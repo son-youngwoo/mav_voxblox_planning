@@ -1,6 +1,7 @@
 #include <ros/ros.h>
 #include <memory>
 #include <string>
+#include <gflags/gflags.h>
 
 #include <voxblox/integrator/esdf_integrator.h>
 #include <voxblox/integrator/tsdf_integrator.h>
